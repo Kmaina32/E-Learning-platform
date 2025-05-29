@@ -1,0 +1,14 @@
+/* Custom styles for HomePage */
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+  }
+  
+  .testimonial-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .courses-section .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }

@@ -1,0 +1,21 @@
+.course-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .course-card .card-img-top {
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .course-meta {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }

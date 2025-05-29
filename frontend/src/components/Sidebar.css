@@ -1,0 +1,50 @@
+/* Sidebar.css */
+.sidebar {
+    width: 150px;
+    height: 100vh;
+    background-color: #2c3e50;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar-logo {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 1rem 0;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+  
+  .app-layout {
+    display: flex;
+  }
+  
+  .main-content {
+    margin-left: 220px;
+    padding: 20px;
+    flex: 1;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .sidebar.collapsed ~ .main-content {
+    margin-left: 60px;
+  }
+  
